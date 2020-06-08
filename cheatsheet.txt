@@ -1,0 +1,19 @@
+Hello, world!
+A few  useful commands to get started with vim.
+
+Useful commands:
+How to switch from command mode to insert mode: i
+How to switch from insert mode to command mode: Esc
+How to navigate up a line in command mode: k
+How to navigate down a line in command mode: j
+How to navigate left a character in command mode: h
+How to navigate right a character: l
+How to save a file: :wEnter (write)
+How to exit without saving (in command mode): :q!Enter
+How to Undo: u
+How to Redo: Ctrl+r
+You can combine writing and quitting (in command mode): :wqEnter
+How to delete a line: D or its equivalent d$ will delete the rest of the line and leave you in command mode.
+C or c$ will delete the rest of the line and put you in insert mode, and new text will be appended to the line.
+How to skip to the end of the line: $ (dollar sign) key. You can use A to move to the end of the line and switch to editing mode (Append). To jump the last non-blank character, you can press g then _ keys.
+The opposite of A is I (Insert mode at beginning of line), as an aside. Pressing just the ^ will place your cursor at the first non-white-space character of the line.
