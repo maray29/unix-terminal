@@ -1,0 +1,6 @@
+Hello, world!
+Useful commands:
+i to INSERT 
+Esc to escape any mode
+:q to quit file
+:wq to write and quit
